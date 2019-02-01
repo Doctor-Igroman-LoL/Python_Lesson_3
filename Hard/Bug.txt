@@ -1,0 +1,4 @@
+name Bug
+health 250
+damage 75
+armor 1.2

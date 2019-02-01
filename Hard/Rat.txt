@@ -1,0 +1,4 @@
+name Rat
+health 250
+damage 50
+armor 1.2
