@@ -11,8 +11,8 @@
 # Так же при выводе имя должно быть полностью в верхнем регистре!
 # Подумайте вспоминая урок, как это можно сделать максимально кратко, используя возможности языка Python.
 
-names = ['Vasya', 'Youra', 'Oleg', 'Bug', 'Zheka', 'Maxim', 'Victor', 'Peach', 'George', 'Rich']
-salaries = [6000, 6500, 6300, 50000, 5600, 4500, 10000, 20, 8400, 500001]
+names = ['Vasya', 'Youra', 'Oleg', 'Bug', 'Zheka', 'Maxim', 'Victor', 'Peach', 'George', 'Rich', 'Nina']
+salaries = [6000, 6500, 6300, 50000, 5600, 4500, 10000, 20, 8400, 500001, 20000]
 staff_income = dict(zip(names, salaries))
 percent = 13
 

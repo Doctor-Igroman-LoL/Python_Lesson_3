@@ -8,3 +8,4 @@ Victor - 10000
 Peach - 20
 George - 8400
 Rich - 500001
+Nina - 20000
