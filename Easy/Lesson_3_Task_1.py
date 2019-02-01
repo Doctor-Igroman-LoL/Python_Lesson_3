@@ -9,9 +9,10 @@ print('-' * 5, 'Решение первой задачи', '-' * 5)
 
 data = input('Введите имя, возраст, и город проживания, через пробел: ').split()
 
-def data_person(name,age,city):
-	print('{}, {} год(а), проживает в городе {}'.format(name,age,city))
-data_person(data[0],data[1],data[2])
+def data_person(name, age, city):
+	print('{}, {} год(а), проживает в городе {}'.format(name, age, city))
+
+data_person(data[0], data[1], data[2])
 
 # Задание - 2
 # Создайте функцию, принимающую на вход 3 числа, и возвращающую наибольшее из них
@@ -20,13 +21,20 @@ print('-' * 5, 'Решение второй задачи', '-' * 5)
 numbers = input('Введите три числа через пробел: ').split()
 numbers = list(map(lambda x: int(x), numbers))
 
-def max_numbers(*args):
-	return max(args)
+def max_numbers(numbers_1, numbers_2, numbers_3):
+	return max(numbers_1, numbers_2, numbers_3)
 
-print('Максимальное число:', max_numbers(numbers[0],numbers[1],numbers[2]))
+print('Максимальное число:', max_numbers(numbers[0], numbers[1], numbers[2]))
 
 # Задание - 3
 # Создайте функцию, принимающую неограниченное количество строковых аргументов,
 # верните самую длинную строку из полученных аргументов
 
-#print('Hello')
+print('-' * 5, 'Решение третей задачи', '-' * 5)
+
+line = input('Введите различные предметы, через пробел: ').split()
+
+def max_line(*args):
+	return max(args, key=len)
+
+print('Самое длинное слово:', max_line(line[0], line[1], line[2]))
